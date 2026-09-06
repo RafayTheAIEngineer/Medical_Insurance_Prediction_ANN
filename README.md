@@ -5,6 +5,9 @@
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.0%2B-orange.svg)
 ![Pandas](<https://img.shields.io/badge/Pandas-Data%20Wrangling-green.svg>)
 
+## Live Demo
+[My App](https://medical-insurance-estimator.streamlit.app/)
+
 ## 📌 Project Overview
 
 This project applies **Machine Learning (Regression Analysis)** to predict the medical insurance costs of individuals based on their demographic information and health metrics. The goal is to build a robust predictive model that can help insurance companies dynamically estimate charges and help individuals understand the factors driving their healthcare costs.

@@ -245,7 +245,7 @@ with st.sidebar:
     st.markdown("**Backend connection**")
     base_url = st.text_input(
         "Backend base URL",
-        value="http://127.0.0.1:8000",
+        value="https://medical-insurance-prediction-ann-api.onrender.com",
         label_visibility="collapsed",
     )
     st.caption("Should point at your running FastAPI app (no trailing slash).")
