@@ -252,7 +252,7 @@ with st.sidebar:
 
     if st.button("Test connection"):
         try:
-            root_resp = requests.get(f"{base_url}/", timeout=5)
+            root_resp = requests.get(f"{base_url}/ping", timeout=5)
             if root_resp.status_code == 200:
                 st.success("Backend is reachable.")
             else:
