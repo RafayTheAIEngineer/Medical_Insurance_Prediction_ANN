@@ -112,6 +112,6 @@ def predict_charges(data:PatientData):
 
 
 # Root endpoint check karne ke liye API zinda hai ya nahi
-@app.get("/")
+@app.get("/ping")
 def read_root():
-    return {"message": "Medical Insurance API is running! Go to /docs for Swagger UI."}
+    return {"message": "Ok"}
